@@ -1,0 +1,206 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    
+
+    
+    
+}
+.heading{
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+
+/* Navigation Bar */
+
+.navbar{
+padding: 0 0 3.5rem;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+.nav-link{
+     font-size: 1.2rem;
+     font-family: "Montsaratt";
+}
+
+/* Download Buttons */
+
+.download_btn{
+    margin: 5% 3% 0% 0%;
+}
+
+/* Mobile Image */
+
+.iphone{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 10%;
+
+}
+
+
+/* Features */
+
+#features{
+    padding: 5%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.feature-pa{
+    padding: 2% 15% 2%;
+    font-size: 1em;
+}
+
+.featureicon{
+    color: tomato;
+    font-size: 3.5rem;
+
+}
+
+.featureicon:hover{
+    color: #ff4c68;
+    
+}
+
+.featurehd{
+    /* margin-top: 10px; */
+}
+
+h3{
+    font-family: "Montsaratt-Bold";
+}
+
+
+/* Testimonials */
+
+#testimonials{
+    text-align: center;
+    padding: 5% 8.5%;
+    background-color: tomato;
+    
+}
+
+h2{
+    font-family: "Montsaratt-Bold";
+    font-weight: bold;
+    color: #fff;
+    
+    
+}
+
+.testiimage{
+    width: 10rem;
+    border-radius: 80rem;
+    margin: 10px auto  auto 110px;
+    
+}
+
+/* Press */
+#press{
+    background-color: tomato;
+    text-align: center;
+
+
+}
+.pressimage{
+    margin: 15px    ;
+    width: 8%;
+    
+}
+
+/* Pricing */
+
+#pricing
+{
+    text-align: center;
+    padding: 5%;
+    
+
+
+}
+
+.cardsections{
+   padding: 2%;
+   
+}
+
+.priceh2{
+
+    color: #000;
+}
+
+
+/* CTA */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+}
+
+.ctah3{
+ padding: 2% 28%;
+ font-family: "Montserrat-Black";
+ font-weight: bold;
+ color: #fff;
+ font-size: 2rem;
+}
+
+.ctabutton{
+    margin: 0% 2% 0% 0%;
+}
+
+
+/* Footer */
+
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 3%;
+}
+
+.footericon{
+    padding: 1% .5%;
+}
+
+.footerpara{
+    font-size: .5rem;
+}
+
+
+    
+/* Media Query */
+
+@media (max-width:1028px)
+{  
+  #title{
+      text-align: center;
+  }
+  .iphone{
+      position: static;
+      transform: rotate(0deg);
+  }
+}
